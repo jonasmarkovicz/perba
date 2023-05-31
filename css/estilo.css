@@ -1,0 +1,115 @@
+body{
+    background-color: grey;
+}
+
+
+.menu{
+    position:relative;
+    height:50%;
+    background-color: rgb(238, 67, 67);
+    display: flex;
+    justify-content: center;
+}
+
+.menu table{
+    position: relative;
+    width: 5%;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu table tr td a{
+    position: relative;
+    text-decoration: none;
+    color:aliceblue;
+    font-size: 15px;
+    font-family: fantasy;
+
+}
+
+.menu table tr td a:hover{
+    position: relative;
+    color: rgb(75, 75, 246);
+}
+.header{
+    position: relative;
+    top: 0;
+    left:0;
+    background: linear-gradient(to right, rgb(13, 12, 116),rgb(72, 70, 199));
+    height: 120px;
+    
+
+}
+
+.titulo{
+    
+    position:absolute;
+    left:40%;
+    top:40%;
+    width:20%;
+    height:80%;
+    font-size: 2vw;
+    color: white;
+}
+
+.menu{
+    position:relative;
+    left: 0px;
+    top:0;
+    width:100%;
+    height:50px;
+    font-size: 20px;
+    color: white; 
+    background: linear-gradient(to right, rgb(33, 33, 129),rgb(72, 70, 199));  
+}
+.links{
+    position: absolute;
+    left: 90%;
+    display: flex;
+}
+.links a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.tabela{
+    position:relative;
+    left: 500px;
+    top: 80px;
+}
+
+.tabela table{
+    width: 50%;
+    text-align: center;
+    background-color: rgb(173, 175, 177);
+    border-collapse: collapse;;
+}
+
+.tabela table td, .tabela table th{
+    border: 3px solid rgb(24, 24, 119);
+    padding: 10px;
+
+}
+
+.tabela th{
+    background-color: rgb(5, 5, 68);
+}
+
+.tabela th{
+    color: antiquewhite;
+
+}
+.footer{
+    position:relative;
+    background-color: rgb(33, 33, 33);
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    height:100px;
+    color: azure;
+    top: 0;
+    left: 0;
+}
